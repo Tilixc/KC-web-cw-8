@@ -30,9 +30,12 @@ function search() {
   let filterdGrades = grades.filter((x) => x == inputValue);
   console.log(filterdGrades)
 
-  if(grades>=""){
+  if(grades==""){
+    return
+  }else{ 
     console.log("الدرجة غير موجوده")
     return
+  
   }
 
 }
